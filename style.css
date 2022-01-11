@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Iceland', cursive;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks {
+  background-color: royalblue;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+li {
+  padding:16px;
+  border-bottom: 1px solid black;
+}
+
+li:hover {
+  background-color: black;
+}
+
+.imagebanner {
+  background-image: url("images/sponge_bob.jpg");
+  background-size: cover;
+  padding: 50px 0;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.introduction {
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+.sectorone {
+  text-align: center;
+  margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+  ul {
+    text-align: right;
+  }
+  li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+  }
+  
+  .sectorone {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
